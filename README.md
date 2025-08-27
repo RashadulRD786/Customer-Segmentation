@@ -55,3 +55,80 @@ GMM Clustering: The core GMM algorithm segments customers. The system first dete
 Auto-Naming & Visualization: The system applies a dynamic rule set to name the clusters and generates the Treemap and detailed cluster profile table for immediate display.
 
 Report Generation: An optimized report is created on the fly, containing all customer-level details, ready for download.
+
+📁 File Structure
+
+The project is organized in a clear, modular structure to separate the web application, data, and machine learning components.
+
+/SegmentAI/
+
+├── app.py  # Main Flask application with API endpoints
+
+├── data/
+
+│   └── online_retail_II.xlsx    # Dataset used for the project
+
+├── templates/
+
+│   └── index.html               # Frontend HTML for the web interface and Stylesheets for the frontent
+
+├── static/
+
+│   └── js/
+
+│       └── script.js            # Frontend JavaScript for interactivity 
+
+├── requirements.txt           # List of Python dependencies
+
+└── README.md                  # This document
+
+⚙️ Setup and Installation
+
+Follow these steps to set up and run the project locally.
+
+Prerequisites
+
+Python 3.8 or higher
+
+Git (optional, but recommended for cloning)
+
+Step 1: Clone the Repository
+
+First, clone the project repository from GitHub to your local machine.
+
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+
+Step 2: Create and Activate Virtual Environment
+
+It's highly recommended to use a virtual environment to manage project dependencies.
+
+# On macOS and Linux
+python3 -m venv venv
+source venv/bin/activate
+
+# On Windows
+python -m venv venv
+.\venv\Scripts\activate
+
+
+
+Step 3: Install Dependencies
+Install all required Python libraries using the requirements.txt file.
+
+pip install -r requirements.txt
+
+Step 4: Run the Application
+Once the dependencies are installed, you can start the Flask application.
+
+python app.py
+
+The application will now be running on http://127.0.0.1:5000. Open this URL in your web browser to interact with the system.
+
+🤝 Let's Connect
+This project demonstrates a blend of machine learning expertise and a strong focus on building user-friendly, impactful applications. I'm actively seeking opportunities where I can apply my skills in data science, machine learning, and full-stack development.
+
+LinkedIn: https://www.linkedin.com/in/rashadul-nafis-riyad/
+
+Email: nafisrashadul@gmail.com
+
